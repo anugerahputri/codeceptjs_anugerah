@@ -1,4 +1,4 @@
-# codeceptjs_anugerah
+# anugerah_codeceptjs
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/anugerahperisput/codeceptjs_anugerah.git
+git remote add origin https://gitlab.com/anugerahperisput/anugerah_codeceptjs.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/anugerahperisput/codeceptjs_anugerah/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/anugerahperisput/anugerah_codeceptjs/-/settings/integrations)
 
 ## Collaborate with your team
 
