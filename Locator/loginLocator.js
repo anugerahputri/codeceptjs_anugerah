@@ -4,5 +4,6 @@ module.exports = {
       inpEmail: '#username',
       inpPass: '#password',
       btnSubmit: '[type="submit"]',
+      alrtEror: {css: 'span.text-xs.text-accent-error-70'}
   },
 }
