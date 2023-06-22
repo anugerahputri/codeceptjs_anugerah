@@ -1,29 +1,37 @@
 {
-  "name": "ini-terakhir",
-  "version": "1.0.0",
-  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
-  "main": "index.js",
-  "scripts": {
-    "test": "codeceptjs run --plugins allure"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@codeceptjs/allure-legacy": "^1.0.2",
-    "allure-commandline": "^2.22.1",
-    "codeceptjs": "^3.4.1",
-    "jest-puppeteer-allure": "^1.4.0",
-    "puppeteer": "^20.5.0"
-  },
-  "dependencies": {
-    "allure": "^0.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/anugerahperisput/anugerah_codeceptjs.git"
-  },
-  "bugs": {
-    "url": "https://gitlab.com/anugerahperisput/anugerah_codeceptjs/issues"
-  },
-  "homepage": "https://gitlab.com/anugerahperisput/anugerah_codeceptjs#readme"
+    "name": "ini-terakhir",
+    "version": "1.0.0",
+    "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+    "main": "index.js",
+    "scripts": {
+        "test": "codeceptjs run --plugins allure",
+        "codeceptjs": "codeceptjs run --steps",
+        "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+        "codeceptjs:ui": "codecept-ui --app",
+        "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@codeceptjs/allure-legacy": "^1.0.2",
+        "allure-commandline": "^2.22.1",
+        "codeceptjs": "^3.4.1",
+        "jest-puppeteer-allure": "^1.4.0",
+        "puppeteer": "^20.5.0"
+    },
+    "dependencies": {
+        "@codeceptjs/ui": "^0.5.0",
+        "allure": "^0.0.0",
+        "got": "^13.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/anugerahperisput/anugerah_codeceptjs.git"
+    },
+    "bugs": {
+        "url": "https://gitlab.com/anugerahperisput/anugerah_codeceptjs/issues"
+    },
+    "homepage": "https://gitlab.com/anugerahperisput/anugerah_codeceptjs#readme"
 }

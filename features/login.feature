@@ -47,7 +47,7 @@ Feature: Login
     Then user see alret eror Format kata sandi wajib diisi
     And user see button login disable
 
-  @Negatif @focus
+  @Negatif
   Scenario: user seller failed login in web seller when input email with wrong format
     Given user open web seller
     And user click button masuk
@@ -55,7 +55,7 @@ Feature: Login
     And user input Password
     Then user see alret eror Format email salah
 
-  @Negatif @focus
+  @Negatif
   Scenario: user seller failed login in web seller when input password is too short
     Given user open web seller
     And user click button masuk

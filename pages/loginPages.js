@@ -32,7 +32,7 @@ clickLogin(){
 },
 
 pageDashboard(){
-  I.seeInCurrentUrl('/dashboard')
+  I.seeInCurrentUrl('/PRODUK')
 },
 
 emailPassNotMatch(){

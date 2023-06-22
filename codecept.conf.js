@@ -1,6 +1,17 @@
 exports.config = {
   output: './output',
   helpers: {
+    REST: {
+      endpoint: 'https://gatekeeper-stg.berasumkm.id/register',
+      defaultHeaders: {
+        // use Bearer Authorization
+        'platform': 'web',
+        'prefix': 'seller',  
+      },
+    },
+    // .. add JSONResponse helper here
+    JSONResponse: {},
+  
     Puppeteer: {
       url: 'https://seller-stg.berasumkm.id/',
       show: true,
